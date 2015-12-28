@@ -1,5 +1,10 @@
 package com.maplesyrup.sellingbook.service.book;
 
-public interface BookService {
 
+import com.maplesyrup.sellingbook.domain.book.Book;
+
+public interface BookService {
+	
+	public void insert(Book book);
+	
 }
