@@ -15,7 +15,6 @@ public class Book {
 	private String board_regDate;
 
 	public Book() {
-		System.out.println(this.getClass());
 	}
 
 	public Book(String board_title, String board_content, String book_name,
@@ -123,13 +122,8 @@ public class Book {
 	public void setBoard_regDate(String board_regDate) {
 		this.board_regDate = board_regDate;
 	}
-
-	@Override
-	public String toString() {
-		return "Book [board_title=" + board_title + ", board_content=" + board_content + ", book_name=" + book_name
-				+ ", book_author=" + book_author + ", book_publisher=" + book_publisher + ", book_image=" + book_image
-				+ ", book_condition=" + book_condition + ", book_price=" + book_price + ", book_w_price=" + book_w_price
-				+ ", sales=" + sales + ", board_regDate=" + board_regDate + "]";
-	}
 	
+	
+	
+
 }
